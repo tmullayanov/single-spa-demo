@@ -1,0 +1,24 @@
+.home-navbar__links {
+    list-style-type: none;
+    background-color: #333;
+    border-bottom: solid 1px black;
+    float: left;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+
+.home-navbar__links > li {
+    float: left;
+    color: white;
+    background-color: #04AA6D;;
+    margin-right: 5px;
+    padding: 7px 10px;
+    border: 1px 0px black;
+    height: 100%;
+}
+
+.home-navbar__links > li:hover {
+    background-color: #198754;
+    cursor: pointer;
+}

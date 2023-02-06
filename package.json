@@ -1,0 +1,28 @@
+{
+  "name": "single-spa-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-one": "cd module-one && npm start",
+    "start-two": "cd module-two && npm start",
+    "start-lib": "cd module-utils && npm start",
+    "start-navbar": "cd navbar && npm start",
+    "start-root-config": "cd root-config && npm start",
+    "start-nested": "cd module-nested && npm start",
+    "start": "run-p -l start-*",
+    "install-one": "cd module-one && npm i",
+    "install-two": "cd module-two && npm i",
+    "install-lib": "cd module-utils && npm i",
+    "install-navbar": "cd navbar && npm i",
+    "install-root-config": "cd root-config && npm i",
+    "install": "run-s -l install-*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

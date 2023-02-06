@@ -1,0 +1,13 @@
+.main-navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.main-content {
+    /* margin-top: 60px; */
+    position: relative;
+    top: 60px;
+}
